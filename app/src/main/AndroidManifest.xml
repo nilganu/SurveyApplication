@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SurveyApplication">
         <activity
+            android:name=".FamilyMembersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".FamilyHeadActivity"
             android:exported="false" />
         <activity
@@ -23,7 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

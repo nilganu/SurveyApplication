@@ -25,37 +25,25 @@
             android:orientation="vertical"
            >
 
-            <LinearLayout
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edtVillageNameContainer"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="63dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                app:helperText="@string/require"
+                app:helperTextTextColor="@android:color/holo_red_dark">
 
-                android:orientation="horizontal">
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/edtVillageNameContainer"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                <AutoCompleteTextView
+                    android:id="@+id/edtVillageName"
                     android:layout_width="match_parent"
-                    app:helperText="@string/require"
-                    app:helperTextTextColor="@android:color/holo_red_dark"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
-                    android:layout_weight="2">
+                    android:editable="false"
+                    android:hint="Name of the village" />
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <AutoCompleteTextView
-                        android:id="@+id/edtVillageName"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:hint="Name of the village"
-                        android:editable="false"/>
-                </com.google.android.material.textfield.TextInputLayout>
 
-                <ImageView
-                    android:id="@+id/imgAddVillage"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_baseline_add_circle_outline_24" />
-            </LinearLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/edtDistanceContainer"
                 android:layout_width="match_parent"
