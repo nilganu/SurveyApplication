@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Village Detail"
+        android:fontFamily="@font/abril_fatface"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddVillageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter Village Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddVillageDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter Village Description" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnAddVillage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add "
+        android:background="@drawable/btn_shape"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:fontFamily="@font/abril_fatface"
+        />
+    <Button
+        android:background="@drawable/btn_shape"
+        android:id="@+id/btnAddVillageCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:fontFamily="@font/abril_fatface"
+        />
+    </LinearLayout>
+
+</LinearLayout>
