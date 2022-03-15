@@ -51,9 +51,7 @@ class FamilyHeadActivity : AppCompatActivity() {
                 submitForm()
 
                // viewModelFamilyHead.AddFamilyHead()
-                var intent=Intent(this,FamilyMembersActivity::class.java)
-                startActivity(intent)
-                finish()
+
             })
             builder.setNegativeButton("No",DialogInterface.OnClickListener { dialogInterface, i ->
 
@@ -90,6 +88,9 @@ class FamilyHeadActivity : AppCompatActivity() {
             val familyHead =HeadOftheFamilyEntity(edtVillageName.text.toString(),edtDistance.text.toString().toDouble(),edtHeadName.text.toString(),edtAadhar.text.toString(),edtNoOfMembers.text.toString().toInt(),edtHeadContact.text.toString(),currentdate)
             viewModelFamilyHead.AddFamilyHead(familyHead)
             Toast.makeText(this,"Family Head Added Successfully!!",Toast.LENGTH_LONG).show()
+            var intent=Intent(this,FamilyMembersActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         else
         {

@@ -6,16 +6,12 @@
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/drawable/background.xml" value="0.1" />
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/drawable/btn_shape.xml" value="0.1" />
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/activity_family_head.xml" value="0.4279475982532751" />
+        <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/activity_family_members.xml" value="0.20416666666666666" />
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/activity_splash.xml" value="0.17074275362318841" />
         <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/add_village_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/activity_family_head.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/activity_family_members.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/activity_main2.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/famil_member_detail.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/family_member_detail.xml" value="0.33" />
-        <entry key="..\:/Users/DC/AndroidStudioProjects/SurveyApplication/app/src/main/res/layout/family_member_detail_dialog.xml" value="0.18" />
+        <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/family_member_detail.xml" value="0.4083333333333333" />
+        <entry key="..\:/FinalSurveyApplication/app/src/main/res/layout/member_dialog.xml" value="0.16032608695652173" />
       </map>
     </option>
   </component>
