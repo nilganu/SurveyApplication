@@ -10,6 +10,4 @@ data class HeadWithMembers (
         entityColumn = "id"
     )
     val family_members:List<FamilyMemberEntity>
-
-
 )
